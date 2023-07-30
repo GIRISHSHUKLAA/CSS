@@ -1,0 +1,35 @@
+.container {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+}
+
+#boxleft {
+  background-color: rgb(99, 99, 98);
+  border: 1px solid blue;
+  width: 47%;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+#boxright {
+  background-color: rgb(221, 221, 110);
+  border: 1px solid brown;
+  width: 47%;
+  margin: 2px;
+  padding: 2px;
+}
+p {
+  border: 1px solid red;
+}
+img {
+  width: 170px;
+}
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}
