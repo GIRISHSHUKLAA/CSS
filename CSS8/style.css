@@ -1,0 +1,33 @@
+:root {
+  --primary-color: blue;
+  --custom-width: 330px;
+}
+img {
+  width: 100px;
+}
+
+.container {
+  background-color: beige;
+  height: 650px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  /* --primary-color: blue;
+  --custom-width: 330px; */
+  background-color: rgb(255, 153, 0);
+  width: var(--custom-width);
+  height: 330px;
+  border: 1px solid brown;
+  margin: 5px;
+  padding: 5px;
+  /* box-shadow: 15px 5px 10px 9px var(--primary-color); */
+  /* box-shadow: 10px 15px red, 15px 8px green; */
+}
+
+#head1 {
+  text-shadow: 2px 2px 2px white, 3px 3px 3px rgb(231, 1, 1);
+}
